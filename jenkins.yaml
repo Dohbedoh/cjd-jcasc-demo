@@ -106,6 +106,7 @@ jenkins:
       name: "WMI Windows Agent"
       numExecutors: 2
       retentionStrategy: "always"
+      remoteFS: "C:\\J\\AA"
   clouds:
   - amazonEC2:
       cloudName: "EC2-sample-config"
