@@ -91,6 +91,7 @@ jenkins:
       name: "SSH Build Agent - by SSH Slaves Plugin"
       numExecutors: 2
       retentionStrategy: "always"
+      remoteFS: "/tmp/sshFromCasc"
   - permanent:
       labelString: "wmi"
       launcher:
